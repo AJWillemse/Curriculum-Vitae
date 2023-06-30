@@ -91,7 +91,7 @@ body {
     background-color: rgba(100, 100, 100, 0.1);
     backdrop-filter: blur(2px);
     box-shadow: 0px 0px 40px black;
-    margin-bottom: 7.5%;
+    margin-bottom: 7%;
     margin-left: 41.5%;
     margin-top: 5%;
     padding: 2% 2%;
@@ -100,11 +100,11 @@ body {
 }
 
 .div-profile {
-    margin-bottom: 45%;
+    margin-bottom: 30%;
 }
 
 .div-about-me {
-    margin-bottom: 15%;
+    margin-bottom: 25%;
 }
 
 .div-experience {
@@ -192,7 +192,7 @@ h5 {
 
 p {
     font-size: 1.2rem;
-    line-height: 1.5;
+    line-height: 2;
     margin-bottom: 5%;
     margin-top: 3%;
     text-shadow: 0px 0px 8px white;
@@ -271,7 +271,7 @@ hr {
 @media (min-width: 1081px) and (max-width: 1440px) {
 
     .content {
-        margin-bottom: 13.5%;
+        margin-bottom: 13%;
     }
 
     h1 {
@@ -454,7 +454,7 @@ hr {
     }
     
     p {
-        font-size: 2rem;
+        font-size: 2.5rem;
         line-height: 2;
         margin-bottom: 5%;
         margin-top: 3%;
@@ -465,7 +465,7 @@ hr {
     }
     
     .btn {
-        font-size: 2rem;
+        font-size: 2.5rem;
         margin-top: 5%;
         width: 40%;
     }
@@ -485,13 +485,13 @@ hr {
     
     .h2-skills {
         margin-bottom: 5%;
-        margin-left: 15%;
+        margin-left: 10%;
     }
     
     .h2-languages {
         margin-bottom: 5%;
-        margin-left: 15%;
-        margin-top: 11%;
+        margin-left: 10%;
+        margin-top: 20%;
     }
     
     hr {
