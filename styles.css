@@ -379,7 +379,7 @@ hr {
         z-index: 2;
         font-size: 5rem;
         left: 0;
-        margin-left: 7%;
+        margin-left: 8%;
         margin-top: 3%;
         position: fixed;
         top: 0;
@@ -392,7 +392,7 @@ hr {
         z-index: 2;
         font-size: 2rem;
         left: 0;
-        margin-left: 48%;
+        margin-left: 49%;
         margin-top: 20%;
         position: fixed;
         text-align: center;
@@ -435,11 +435,11 @@ hr {
     }
     
     h2 {
-        font-size: 3.5rem;
+        font-size: 3.8rem;
     }
     
     .h2-company {
-        font-size: 3.2rem;
+        font-size: 3.5rem;
     }
     
     .h2-projects {
@@ -455,13 +455,13 @@ hr {
     }
     
     p {
-        font-size: 2.5rem;
+        font-size: 2.8rem;
         line-height: 2;
         margin-bottom: 10%;
     }
     
     .link-project {
-        font-size: 3rem;
+        font-size: 3.2rem;
     }
     
     .btn {
@@ -476,16 +476,16 @@ hr {
     
     ul {
         font-size: 2rem;
-        margin-left: 18%;
+        margin-left: 13%;
     }
     
     .h2-skills {
-        margin-left: 10%;
+        margin-left: 5%;
     }
     
     .h2-languages {
-        margin-left: 10%;
-        margin-top: 40%;
+        margin-left: 5%;
+        margin-top: 35%;
     }
 
     
