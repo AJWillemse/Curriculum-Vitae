@@ -423,6 +423,7 @@ hr {
 
     .projects {
         width: 100%;
+        margin-bottom: 15%;
     }
     
     .contact {
@@ -484,7 +485,7 @@ hr {
     
     .h2-languages {
         margin-left: 10%;
-        margin-top: 50%;
+        margin-top: 40%;
     }
 
     
