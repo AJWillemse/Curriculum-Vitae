@@ -408,8 +408,8 @@ hr {
     }
 
     .content {
-        background-color: rgba(0, 0, 0, 0.5);
-        backdrop-filter: blur(4px);
+        background-color: rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(3px);
         margin: auto;
         margin-bottom: 8%;
         margin-top: 55%;
@@ -421,7 +421,7 @@ hr {
         display: none;
     }
     .div-about-me {
-        margin-bottom: 50%;
+        margin-bottom: 45%;
     }
 
     .projects {
@@ -488,7 +488,7 @@ hr {
     
     .h2-languages {
         margin-left: 5%;
-        margin-top: 30%;
+        margin-top: 25%;
     }
 
     
