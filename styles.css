@@ -356,6 +356,7 @@ hr {
         margin-left: 5%;
         margin-top: 15%;
         position: fixed;
+        opacity: 0.9;
         top: 0;
         width: 40%;
     }
@@ -379,7 +380,7 @@ hr {
         z-index: 2;
         font-size: 5rem;
         left: 0;
-        margin-left: 8%;
+        margin-left: 9%;
         margin-top: 3%;
         position: fixed;
         top: 0;
@@ -392,7 +393,7 @@ hr {
         z-index: 2;
         font-size: 2rem;
         left: 0;
-        margin-left: 49%;
+        margin-left: 50%;
         margin-top: 20%;
         position: fixed;
         text-align: center;
@@ -407,18 +408,20 @@ hr {
     }
 
     .content {
+        background-color: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(4px);
         margin: auto;
         margin-bottom: 8%;
         margin-top: 55%;
         padding-top: 5%;
-        width: 80%;
+        width: 90%;
     }
 
     .div-profile {
         display: none;
     }
     .div-about-me {
-        margin-bottom: 70%;
+        margin-bottom: 50%;
     }
 
     .projects {
@@ -485,7 +488,7 @@ hr {
     
     .h2-languages {
         margin-left: 5%;
-        margin-top: 35%;
+        margin-top: 30%;
     }
 
     
