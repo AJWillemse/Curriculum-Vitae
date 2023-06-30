@@ -173,6 +173,7 @@ h2 {
 .h2-company {
     font-style: italic;
     font-weight: lighter;
+    text-shadow: 0px 0px 8px white;
 }
 
 .h2-projects {
@@ -333,6 +334,10 @@ hr {
 
 @media (max-width: 1080px) {
 
+    .background-image {
+        display: none;
+    }
+
     .header {
         left: 0;
         position: fixed;
@@ -388,7 +393,7 @@ hr {
         font-size: 2rem;
         left: 0;
         margin-left: 48%;
-        margin-top: 15%;
+        margin-top: 20%;
         position: fixed;
         text-align: right;
         top: 0;
@@ -403,8 +408,93 @@ hr {
 
     .content {
         margin: auto;
-        margin-top: 58%;
-        width: 90%;
+        margin-top: 55%;
+        padding-top: 5%;
+        width: 80%;
+    }
+
+    .div-profile {
+        display: none;
+    }
+
+    h1 {
+        font-size: 4rem;
+        margin-bottom: 5%;
+    }
+    
+    h2 {
+        font-size: 2.5rem;
+    }
+    
+    .h2-company {
+        font-style: italic;
+        font-weight: lighter;
+    }
+    
+    .h2-projects {
+        font-size: 2.5rem;
+    }
+    
+    h3 {
+        
+    }
+    
+    h5 {
+        margin-top: 4%;
+    }
+    
+    p {
+        font-size: 1.2rem;
+        line-height: 1.5;
+        margin-bottom: 5%;
+        margin-top: 3%;
+    }
+    
+    .link-project {
+        font-size: 1.3rem;
+    }
+    
+    .btn {
+        font-size: 1.3rem;
+        margin-top: 5%;
+    }
+    
+    .copyright-text {
+        margin: 0;
+    }
+    
+    .link-footer {
+        font-size: 1.2rem;
+    }
+    
+    ul {
+        font-size: 1.2rem;
+        margin-left: 23%;
+    }
+    
+    .h2-skills {
+        margin-bottom: 5%;
+        margin-left: 20%;
+    }
+    
+    .h2-languages {
+        margin-bottom: 5%;
+        margin-left: 20%;
+        margin-top: 14.5%;
+    }
+    
+    hr {
+        border: 3px solid;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        width: 70%;
+    }
+    
+    .hr-profile {
+        border: 3px solid;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        width: 70%;
     }
 
     
