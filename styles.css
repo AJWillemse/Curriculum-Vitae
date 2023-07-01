@@ -133,8 +133,10 @@ body {
 }
 
 .container-footer {
+    bottom: 100%;
     margin: auto;
     margin-bottom: 1%;
+    position: fixed;
     text-align: center;
 }
 
@@ -372,8 +374,22 @@ hr {
         backdrop-filter: blur(3px);
         margin: auto;
         margin-bottom: 8%;
-        margin-top: 3%;
+        margin-top: 70%;
         width: 90%;
+        position: fixed;
+        scrollbar-width: none;
+        top: 0;
+        left: 0;
+        width: 80%;
+        height: 100%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        -ms-overflow-style: none;
+    }
+
+    .content::-webkit-scrollbar {
+        width: 6px;
+        background-color: transparent;
     }
 
     .div-about-me {

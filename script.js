@@ -21,18 +21,50 @@ $(window).on('load', function() {
 
 
 $(document).ready(function() {
-  $(window).scroll(function() {
-      $(".fade-in").each(function() {
-          var position = $(this).offset().top;
-          var scroll = $(window).scrollTop();
-          var windowHeight = $(window).height();
-          var fadeOffset = 100; // Adjust this value as needed
+    $(window).scroll(function() {
+        $(".fade-in").each(function() {
+            var position = $(this).offset().top;
+            var scroll = $(window).scrollTop();
+            var windowHeight = $(window).height();
+            var fadeOffset = 100; // Adjust this value as needed
 
-          if (scroll > position - windowHeight + fadeOffset && scroll < position + $(this).outerHeight() - fadeOffset) {
-              $(this).addClass("visible");
-          } else {
-              $(this).removeClass("visible");
-          }
-      });
-  }).scroll(); // Trigger scroll event on page load
+            if (
+                scroll + windowHeight > position + fadeOffset &&
+                scroll < position + $(this).outerHeight() - fadeOffset
+            ) {
+                $(this).addClass("visible");
+            } else {
+                $(this).removeClass("visible");
+            }
+        });
+    }).scroll(); // Trigger scroll event on page load
 });
+
+
+
+
+
+
+
+$(document).ready(function() {
+    $(".content").scroll(function() {
+      var containerTop = $(".content").offset().top;
+      var containerHeight = $(".content").height();
+  
+      $(".fade-in").each(function() {
+        var elemTop = $(this).offset().top - containerTop;
+  
+        if (elemTop < containerHeight && elemTop > -$(this).height()) {
+          $(this).addClass("visible").removeClass("fade-out");
+        } else {
+          $(this).removeClass("visible").addClass("fade-out");
+        }
+      });
+    }).scroll(); // Trigger scroll event on page load
+  });
+  
+  
+  
+  
+  
+  
