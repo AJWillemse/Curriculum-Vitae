@@ -331,11 +331,12 @@ hr {
     .div-profile {
         margin-left: 50%;
         text-align: center;
-        width: 55%;
+        width: 53%;
     }
 
     .h2-mobile-position {
         font-size: 2.7rem;
+        margin-top: 15%;
     }
       
     .mobile-profile-picture {
@@ -357,11 +358,11 @@ hr {
         width: 70%;
     }
 
-    .hr-mobile {
+    .hr-profile {
         border: 2px solid;
         margin-bottom: 3%;
         margin-top: 5%;
-        width: 80%;
+        width: 70%;
     }
 
     .content {
@@ -373,7 +374,7 @@ hr {
     }
 
     .div-about-me {
-        margin-bottom: 45%;
+        margin-bottom: 35%;
     }
 
     .projects {
