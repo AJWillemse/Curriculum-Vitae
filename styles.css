@@ -366,7 +366,7 @@ hr {
         background-repeat: no-repeat;
         background-size: cover;
         z-index: 1;
-        box-shadow: 0px 0px 30px black;
+        box-shadow: 0px 0px 70px black;
         left: 0;
         position: fixed;
         top: 0;
@@ -380,7 +380,7 @@ hr {
         z-index: 2;
         font-size: 5rem;
         left: 0;
-        margin-left: 9%;
+        margin-left: 8%;
         margin-top: 3%;
         position: fixed;
         top: 0;
@@ -393,10 +393,10 @@ hr {
         z-index: 2;
         font-size: 2rem;
         left: 0;
-        margin-left: 50%;
+        margin-left: 49%;
         margin-top: 20%;
         position: fixed;
-        text-align: center;
+        text-align: right;
         top: 0;
     }
 
@@ -488,7 +488,7 @@ hr {
     
     .h2-languages {
         margin-left: 5%;
-        margin-top: 25%;
+        margin-top: 24%;
     }
 
     
