@@ -136,7 +136,6 @@ body {
     bottom: 100%;
     margin: auto;
     margin-bottom: 1%;
-    position: fixed;
     text-align: center;
 }
 
@@ -398,7 +397,7 @@ hr {
     }
 
     .h1-profile {
-        font-size: 5.5rem;
+        font-size: 6rem;
         margin-bottom: 0;
     }
     
@@ -407,7 +406,7 @@ hr {
     }
 
     .h2-profile {
-        font-size: 4rem;
+        font-size: 4.5rem;
         margin-top: 0;
     }
     
@@ -440,11 +439,9 @@ hr {
         width: 70%;
     }
 
-    .hr-mobile {
+    .hr-profile {
         border: 3px solid;
-        margin-bottom: 1%;
-        margin-top: 1%;
-        width: 70%;
+        width: 60%;
     }
     
     .link-project {
@@ -452,9 +449,9 @@ hr {
     }
     
     .btn {
-        font-size: 2.5rem;
+        font-size: 3rem;
         margin-bottom: 5%;
-        width: 40%;
+        width: 45%;
     }
     
     .link-footer {
@@ -467,11 +464,11 @@ hr {
     }
     
     .h2-skills {
-        margin-left: 5%;
+        margin-left: 6%;
     }
     
     .h2-languages {
-        margin-left: 5%;
+        margin-left: 6%;
         margin-top: 23.5%;
     }
 
