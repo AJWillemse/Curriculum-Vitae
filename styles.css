@@ -353,7 +353,7 @@ hr {
         backdrop-filter: blur(8px);
         height: 100%;
         left: 0;
-        margin-bottom: 100%;
+        margin-bottom: -115%;
         margin-left: 5%;
         margin-top: 30%;
         padding-top: 30%;
@@ -415,7 +415,7 @@ hr {
     }
     
     .h2-projects {
-        font-size: 4rem;
+        font-size: 5.5rem;
     }
     
     h3 {
@@ -460,15 +460,15 @@ hr {
     
     ul {
         font-size: 2rem;
-        margin-left: 13%;
+        margin-left: 14%;
     }
     
     .h2-skills {
-        margin-left: 6%;
+        margin-left: 8%;
     }
     
     .h2-languages {
-        margin-left: 6%;
+        margin-left: 8%;
         margin-top: 23.5%;
     }
 
