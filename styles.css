@@ -57,12 +57,6 @@ body {
 /*////////////////////////////////////////////////////////*/
 
 @media (min-width: 1081px) {
-    .mobile-cover-image {
-      display: none;
-    }
-  }
-
-@media (min-width: 1081px) {
     .mobile-profile-picture {
       display: none;
     }  
@@ -73,18 +67,6 @@ body {
     .mobile-background-image {
     display: none;
     }
-}
-
-@media (min-width: 1081px) {
-    .mobile-h1-name {
-      display: none;
-    }  
-}
-
-@media (min-width: 1081px) {
-    .mobile-h2-position {
-      display: none;
-    }  
 }
 
 .content {
@@ -345,59 +327,27 @@ hr {
         width: 100%;
         z-index: 2;
     }
+
+    .div-profile {
+        margin-left: 50%;
+        text-align: center;
+        width: 55%;
+    }
+
+    .h2-mobile-position {
+        font-size: 2.7rem;
+    }
       
     .mobile-profile-picture {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        box-shadow: 0px 0px 50px black;
+        left: 0;
+        position: fixed;
+        top: 0;
+        width: 50%;
         z-index: 3;
-        box-shadow: 0px 0px 30px black;
-        left: 0;
-        margin-left: 3.5%;
-        margin-top: 14%;
-        position: fixed;
-        opacity: 0.8.5;
-        top: 0;
-        width: 42%;
-    }
-
-    .mobile-cover-image {
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        z-index: 1;
-        box-shadow: 0px 0px 70px black;
-        left: 0;
-        position: fixed;
-        top: 0;
-        width: 100%;
-    }
-
-    .mobile-h1-name {
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        z-index: 2;
-        font-size: 5rem;
-        left: 0;
-        margin-left: 9%;
-        margin-top: 2%;
-        position: fixed;
-        top: 0;
-    }
-
-    .mobile-h2-position {
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        z-index: 2;
-        font-size: 2.5rem;
-        left: 0;
-        margin-left: 49%;
-        margin-top: 18%;
-        position: fixed;
-        text-align: center;
-        top: 0;
     }
 
     hr {
@@ -419,13 +369,7 @@ hr {
         backdrop-filter: blur(3px);
         margin: auto;
         margin-bottom: 8%;
-        margin-top: 50%;
-        padding-top: 5%;
         width: 90%;
-    }
-
-    .div-profile {
-        display: none;
     }
 
     .div-about-me {
