@@ -393,11 +393,11 @@ hr {
     }
 
     h1 {
-        font-size: 5rem;
+        font-size: 5.5rem;
     }
 
     .h1-profile {
-        font-size: 6rem;
+        font-size: 6.5rem;
         margin-bottom: 0;
     }
     
@@ -423,7 +423,7 @@ hr {
     }
     
     h5 {
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
     
     p {
@@ -445,7 +445,7 @@ hr {
     }
     
     .link-project {
-        font-size: 3.2rem;
+        font-size: 3.5rem;
     }
     
     .btn {
