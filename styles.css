@@ -331,7 +331,7 @@ hr {
     }
 
     .div-profile {
-        
+        display: none;
     }
 
     .h2-mobile-position {
@@ -345,16 +345,15 @@ hr {
         background-size: cover;
         box-shadow: 0px 0px 100px black;
         left: 0;
-        margin-left: 12.5%;
         margin-top: 3%;
         position: fixed;
         top: 0;
-        width: 75%;
+        width: 50%;
         z-index: 3;
     }
 
     hr {
-        border: 2px solid;
+        border: 3px solid;
         margin-bottom: 3%;
         margin-top: 5%;
         width: 70%;
