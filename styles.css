@@ -399,6 +399,7 @@ hr {
 
     .h1-profile {
         font-size: 5.5rem;
+        margin-bottom: 0;
     }
     
     h2 {
@@ -407,6 +408,7 @@ hr {
 
     .h2-profile {
         font-size: 4rem;
+        margin-top: 0;
     }
     
     .h2-company {
