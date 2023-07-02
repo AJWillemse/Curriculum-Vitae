@@ -367,7 +367,7 @@ hr {
     .content {
         background-color: rgba(0, 0, 0, 0.6);
         backdrop-filter: blur(8px);
-        height: 90%;
+        height: 85%;
         left: 0;
         margin-left: 5%;
         margin-top: 15%;
@@ -408,7 +408,7 @@ hr {
     }
 
     .container-footer {
-        margin-top: 200%;
+        margin-top: 180%;
     }
 
     h1 {
