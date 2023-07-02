@@ -344,11 +344,6 @@ hr {
         width: 100%;
         z-index: 2;
     }
-
-    .h2-mobile-position {
-        font-size: 2.7rem;
-        margin-top: 15%;
-    }
       
     .mobile-profile-picture {
         background-position: center;
@@ -389,6 +384,10 @@ hr {
     .content::-webkit-scrollbar {
         width: 6px;
         background-color: transparent;
+    }
+
+    .div-profile {
+        margin-bottom: 15%;
     }
 
     .div-about-me {
