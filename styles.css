@@ -349,18 +349,14 @@ hr {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        box-shadow: 0px 0px 30px black;
+        box-shadow: 0px 0px 80px black;
         left: 0;
+        margin-left: 3%;
+        margin-top: 3%;
         position: fixed;
         top: 0;
-        width: 100%;
+        width: 40%;
         z-index: 3;
-    }
-
-    .arrows {
-        margin-left: 75%;
-        margin-bottom: 15%;
-        width: 10%;
     }
 
     .content {
@@ -368,14 +364,14 @@ hr {
         backdrop-filter: blur(6px);
         height: 85%;
         left: 0;
-        margin-left: 10%;
-        margin-top: 45%;
+        margin-left: 7.5%;
+        margin-top: 50%;
         overflow-x: hidden;
         overflow-y: scroll;
         position: fixed;
         scrollbar-width: none;
         top: 0;
-        width: 80%;
+        width: 85%;
         -ms-overflow-style: none;
     }
 
@@ -413,9 +409,12 @@ hr {
         font-size: 5.5rem;
     }
 
-    .h1-profile {
-        font-size: 6.5rem;
-        margin-bottom: 2%;
+    .h1-mobile-name {
+        font-size: 5.5rem;
+        margin-left: 45%;
+        position: fixed;
+        text-align: left;
+        top: 2%;
     }
     
     h2 {
@@ -426,9 +425,12 @@ hr {
         font-size: 4rem;
     }
 
-    .h2-profile {
-        font-size: 4.5rem;
-        margin-top: 0;
+    .h2-mobile-position {
+        font-size: 2.8rem;
+        margin-left: 44.5%;
+        position: fixed;
+        text-align: left;
+        top: 28%;
     }
     
     .h2-company {
@@ -460,7 +462,7 @@ hr {
         width: 70%;
     }
 
-    .hr-profile {
+    .hr-mobile {
         border: 3px solid;
         width: 60%;
     }
