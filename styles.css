@@ -409,7 +409,7 @@ hr {
     }
 
     .container-footer {
-        margin-top: 100%;
+        display: none;
     }
 
     h1 {
