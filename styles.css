@@ -351,10 +351,8 @@ hr {
     .content {
         background-color: rgba(0, 0, 0, 0.6);
         backdrop-filter: blur(8px);
-        bottom: 10%;
         height: 100%;
         left: 0;
-        margin-bottom: 10%;
         margin-left: 5%;
         margin-top: 30%;
         padding-top: 30%;
@@ -406,6 +404,10 @@ hr {
         font-size: 3.8rem;
     }
 
+    .h2-about-me {
+        font-size: 4rem;
+    }
+
     .h2-profile {
         font-size: 4.5rem;
         margin-top: 0;
@@ -450,9 +452,9 @@ hr {
     }
     
     .btn {
-        font-size: 3rem;
+        font-size: 3.5rem;
         margin-bottom: 5%;
-        width: 45%;
+        width: 50%;
     }
     
     .link-footer {
