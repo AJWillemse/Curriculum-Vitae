@@ -351,10 +351,9 @@ hr {
         background-size: cover;
         box-shadow: 0px 0px 30px black;
         left: 0;
-        margin-top: 5%;
         position: fixed;
         top: 0;
-        width: 70%;
+        width: 100%;
         z-index: 3;
     }
 
@@ -369,15 +368,14 @@ hr {
         backdrop-filter: blur(4px);
         height: 85%;
         left: 0;
-        margin-left: 5%;
-        margin-top: 15%;
+        margin-left: 10%;
+        margin-top: 45%;
         overflow-x: hidden;
         overflow-y: scroll;
-        padding-top: 8%;
         position: fixed;
         scrollbar-width: none;
         top: 0;
-        width: 90%;
+        width: 80%;
         -ms-overflow-style: none;
     }
 
@@ -387,7 +385,7 @@ hr {
     }
 
     .div-profile {
-        margin-bottom: 16%;
+        display: none;
     }
 
     .div-about-me {
