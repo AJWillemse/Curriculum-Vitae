@@ -361,19 +361,19 @@ hr {
     .arrows {
         margin-left: 75%;
         margin-bottom: 15%;
-        width: 12%;
+        width: 10%;
     }
 
     .content {
         background-color: rgba(0, 0, 0, 0.6);
         backdrop-filter: blur(8px);
-        height: 80%;
+        height: 85%;
         left: 0;
         margin-left: 5%;
         margin-top: 15%;
         overflow-x: hidden;
         overflow-y: scroll;
-        padding-top: 5%;
+        padding-top: 8%;
         position: fixed;
         scrollbar-width: none;
         top: 0;
@@ -395,7 +395,7 @@ hr {
     }
 
     .projects-contact {
-        margin-bottom: 15%;
+        margin-bottom: 5%;
     }
 
     .projects {
@@ -408,6 +408,7 @@ hr {
     }
 
     .container-footer {
+        margin-top: 100%;
     }
 
     h1 {
