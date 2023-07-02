@@ -360,8 +360,8 @@ hr {
     }
 
     .content {
-        background-color: rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(2px);
+        background-color: rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(4px);
         height: 65%;
         left: 0;
         margin-left: 7.5%;
@@ -423,7 +423,7 @@ hr {
     }
 
     .h2-about-me {
-        font-size: 4rem;
+        font-size: 4.2rem;
     }
 
     .h2-mobile-position {
@@ -431,7 +431,7 @@ hr {
         margin-left: 46.5%;
         position: fixed;
         text-align: left;
-        top: 17%;
+        top: 16%;
     }
     
     .h2-company {
@@ -481,12 +481,10 @@ hr {
     }
 
     .copyright-text {
-        color: black;
         font-size: 2rem;
     }
     
     .link-footer {
-        color: black;
         font-size: 2.5rem;
     }
     
