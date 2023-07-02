@@ -365,8 +365,8 @@ hr {
     }
 
     .content {
-        background-color: rgba(0, 0, 0, 0.6);
-        backdrop-filter: blur(8px);
+        background-color: rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(4px);
         height: 85%;
         left: 0;
         margin-left: 5%;
