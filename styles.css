@@ -351,9 +351,10 @@ hr {
     .content {
         background-color: rgba(0, 0, 0, 0.6);
         backdrop-filter: blur(8px);
-        height: 90%;
+        bottom: 0;
+        height: 100%;
         left: 0;
-        margin-bottom: -115%;
+        margin-bottom: 10%;
         margin-left: 5%;
         margin-top: 30%;
         padding-top: 30%;
