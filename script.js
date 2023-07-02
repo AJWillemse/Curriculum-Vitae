@@ -1,3 +1,12 @@
+$(document).ready(function() {
+  $('#upArrows').css('opacity', 1);
+});
+
+
+
+
+
+
 $(window).on('load', function() {
   var image = $('#cover');
   image.css('opacity', 1);
@@ -26,7 +35,7 @@ $(document).ready(function() {
             var position = $(this).offset().top;
             var scroll = $(window).scrollTop();
             var windowHeight = $(window).height();
-            var fadeOffset = 100; // Adjust this value as needed
+            var fadeOffset = 100; 
 
             if (
                 scroll + windowHeight > position + fadeOffset &&
@@ -37,7 +46,7 @@ $(document).ready(function() {
                 $(this).removeClass("visible");
             }
         });
-    }).scroll(); // Trigger scroll event on page load
+    }).scroll(); 
 });
 
 
@@ -60,7 +69,7 @@ $(document).ready(function() {
           $(this).removeClass("visible").addClass("fade-out");
         }
       });
-    }).scroll(); // Trigger scroll event on page load
+    }).scroll(); 
   });
   
   

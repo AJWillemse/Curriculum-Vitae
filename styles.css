@@ -12,6 +12,17 @@ body {
     transition: opacity 5s ease-in-out;
 }
 
+@keyframes fadeEffect {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
+#upArrows {
+    animation: fadeEffect 3s infinite;
+    opacity: 0;
+  }
+
 .fade-in {
     opacity: 0;
     transition: opacity 3s ease-in-out;
@@ -62,9 +73,14 @@ body {
     }  
 }
 
-
 @media (min-width: 1081px) {
     .mobile-background-image {
+    display: none;
+    }
+}
+
+@media (min-width: 1081px) {
+    .arrows {
     display: none;
     }
 }
@@ -347,6 +363,12 @@ hr {
         z-index: 3;
     }
 
+    .arrows {
+        margin-left: 75%;
+        margin-bottom: 15%;
+        width: 12%;
+    }
+
     .content {
         background-color: rgba(0, 0, 0, 0.6);
         backdrop-filter: blur(8px);
@@ -356,7 +378,7 @@ hr {
         margin-top: 15%;
         overflow-x: hidden;
         overflow-y: scroll;
-        padding-top: 40%;
+        padding-top: 5%;
         position: fixed;
         scrollbar-width: none;
         top: 0;
@@ -367,10 +389,6 @@ hr {
     .content::-webkit-scrollbar {
         width: 6px;
         background-color: transparent;
-    }
-
-    .div-profile {
-        
     }
 
     .div-about-me {
