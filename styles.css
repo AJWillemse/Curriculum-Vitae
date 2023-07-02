@@ -7,6 +7,21 @@ body {
     transition: opacity 5s ease-in-out;
 }
 
+#mobileProfilePicture {
+    opacity: 0;
+    transition: opacity 5s ease-in-out;
+}
+
+#mobileProfileName {
+    opacity: 0;
+    transition: opacity 5s ease-in-out;
+}
+
+#mobileProfilePosition {
+    opacity: 0;
+    transition: opacity 5s ease-in-out;
+}
+
 #profile {
     opacity: 0;
     transition: opacity 5s ease-in-out;
@@ -16,11 +31,6 @@ body {
     0% { opacity: 0; }
     50% { opacity: 1; }
     100% { opacity: 0; }
-  }
-  
-#upArrows {
-    animation: fadeEffect 3s infinite;
-    opacity: 0;
   }
 
 .fade-in {
@@ -364,14 +374,14 @@ hr {
         backdrop-filter: blur(4px);
         height: 65%;
         left: 0;
-        margin-left: 7.5%;
+        margin-left: 5%;
         margin-top: 50%;
         overflow-x: hidden;
         overflow-y: scroll;
         position: fixed;
         scrollbar-width: none;
         top: 0;
-        width: 85%;
+        width: 90%;
         -ms-overflow-style: none;
     }
 
@@ -407,7 +417,7 @@ hr {
     }
 
     h1 {
-        font-size: 5.5rem;
+        font-size: 6rem;
     }
 
     .h1-mobile-name {
@@ -419,7 +429,7 @@ hr {
     }
     
     h2 {
-        font-size: 3.8rem;
+        font-size: 4.2rem;
     }
 
     .h2-about-me {
@@ -435,7 +445,7 @@ hr {
     }
     
     .h2-company {
-        font-size: 3.5rem;
+        font-size: 4.2rem;
     }
     
     .h2-projects {
