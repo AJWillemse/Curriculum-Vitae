@@ -19,6 +19,16 @@ $(window).on('load', function() {
 
 
 
+$(window).on('load', function() {
+  var image = $('#profilePicture');
+  image.css('opacity', 1);
+});
+
+
+
+
+
+
 
 $(window).on('load', function() {
   var image = $('#mobileProfilePicture');
