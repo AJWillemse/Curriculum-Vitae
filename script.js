@@ -31,7 +31,7 @@ $(window).on('load', function() {
 
 
 $(window).on('load', function() {
-  var image = $('#mobileProfilePicture');
+  var image = $('#mobileCoverPicture');
   image.css('opacity', 1);
 });
 
