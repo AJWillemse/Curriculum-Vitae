@@ -467,7 +467,7 @@ hr {
     
     p {
         font-size: 3.5rem;
-        line-height: 2;
+        line-height: 1.5;
         margin-bottom: 10%;
         text-shadow: 0px 0px 2px black;
     }
@@ -486,7 +486,7 @@ hr {
     }
     
     .btn {
-        font-size: 3.5rem;
+        font-size: 4rem;
         margin-bottom: 5%;
         text-shadow: 0px 0px 4px black;
         width: 50%;
@@ -505,7 +505,7 @@ hr {
     }
     
     ul {
-        font-size: 3.5rem;
+        font-size: 3rem;
         margin-left: 14%;
         text-shadow: 0px 0px 4px black;
     }
