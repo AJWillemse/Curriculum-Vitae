@@ -1,12 +1,3 @@
-$(document).ready(function() {
-  $('#upArrows').css('opacity', 1);
-});
-
-
-
-
-
-
 $(window).on('load', function() {
   var image = $('#cover');
   image.css('opacity', 1);
@@ -20,6 +11,39 @@ $(window).on('load', function() {
 
 $(window).on('load', function() {
   var image = $('#profile');
+  image.css('opacity', 1);
+});
+
+
+
+
+
+
+
+$(window).on('load', function() {
+  var image = $('#mobileProfilePicture');
+  image.css('opacity', 1);
+});
+
+
+
+
+
+
+
+$(window).on('load', function() {
+  var image = $('#mobileProfileName');
+  image.css('opacity', 1);
+});
+
+
+
+
+
+
+
+$(window).on('load', function() {
+  var image = $('#mobileProfilePosition');
   image.css('opacity', 1);
 });
 
