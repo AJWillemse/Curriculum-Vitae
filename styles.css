@@ -22,6 +22,11 @@ body {
     transition: opacity 5s ease-in-out;
 }
 
+#upArrows {
+    animation: fadeEffect 3s infinite;
+    opacity: 0;
+  }
+
 @keyframes fadeEffect {
     0% { opacity: 0; }
     50% { opacity: 1; }
@@ -394,7 +399,7 @@ hr {
 
     .up-arrows {
         margin-right: 0;
-        margin-left: 70%;
+        margin-left: 30%;
         margin-top: -10%;
         position: absolute;
         width: 15%;
