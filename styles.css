@@ -90,7 +90,13 @@ body {
 }
 
 @media (min-width: 1081px) {
-    .arrows {
+    .h1-mobile-name {
+      display: none;
+    }  
+}
+
+@media (min-width: 1081px) {
+    .h2-mobile-position {
     display: none;
     }
 }
