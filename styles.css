@@ -17,16 +17,6 @@ body {
     transition: opacity 4s ease-in-out;
 }
 
-#mobileProfileName {
-    opacity: 0;
-    transition: opacity 5s ease-in-out;
-}
-
-#mobileProfilePosition {
-    opacity: 0;
-    transition: opacity 5s ease-in-out;
-}
-
 #profile {
     opacity: 0;
     transition: opacity 5s ease-in-out;
@@ -47,7 +37,7 @@ body {
     opacity: 1;
 }
   
-.background-image {
+.main-header {
     position: fixed;
     top: 0;
     left: 0;
@@ -90,18 +80,6 @@ body {
 
 @media (min-width: 1081px) {
     .mobile-background-image {
-    display: none;
-    }
-}
-
-@media (min-width: 1081px) {
-    .h1-mobile-name {
-      display: none;
-    }  
-}
-
-@media (min-width: 1081px) {
-    .h2-mobile-position {
     display: none;
     }
 }
@@ -358,7 +336,7 @@ hr {
         color: black;
     }
 
-    .background-image {
+    .main-header {
         display: none;
     }
 
@@ -389,7 +367,7 @@ hr {
         height: 65%;
         left: 0;
         margin-left: 0;
-        margin-top: 50%;
+        margin-top: 55%;
         overflow-x: hidden;
         overflow-y: scroll;
         position: fixed;
@@ -518,7 +496,7 @@ hr {
     
     .h2-languages {
         margin-left: 8%;
-        margin-top: 25%;
+        margin-top: 27%;
         text-shadow: 0px 0px 4px black;
     }
 

@@ -41,28 +41,6 @@ $(window).on('load', function() {
 
 
 
-$(window).on('load', function() {
-  var image = $('#mobileProfileName');
-  image.css('opacity', 1);
-});
-
-
-
-
-
-
-
-$(window).on('load', function() {
-  var image = $('#mobileProfilePosition');
-  image.css('opacity', 1);
-});
-
-
-
-
-
-
-
 $(document).ready(function() {
     $(window).scroll(function() {
         $(".fade-in").each(function() {
