@@ -369,12 +369,12 @@ hr {
         z-index: 2;
     }
       
-    .mobile-profile-picture {
+    .mobile-cover-picture {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         left: 0;
-        margin-top: 4%;
+        margin-top: 2%;
         position: fixed;
         top: 0;
         width: 100%;
