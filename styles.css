@@ -374,7 +374,6 @@ hr {
         background-repeat: no-repeat;
         background-size: cover;
         left: 0;
-        margin-top: 2%;
         position: fixed;
         top: 0;
         width: 100%;
@@ -405,7 +404,7 @@ hr {
 
     .up-arrows {
         margin-right: 0;
-        margin-left: 22%;
+        margin-left: 24%;
         margin-top: -12%;
         position: absolute;
         width: 12%;
@@ -501,15 +500,14 @@ hr {
     }
 
     .copyright-text {
-        color: white;
         font-size: 2rem;
-        text-shadow: 0px 0px 12px white;
+        text-shadow: 0px 0px 4px black;
     }
     
     .link-footer {
-        color: white;
+        color: black;
         font-size: 2.5rem;
-        text-shadow: 0px 0px 12px white;
+        text-shadow: 0px 0px 4px black;
     }
     
     ul {
