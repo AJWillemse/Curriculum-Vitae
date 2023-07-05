@@ -405,9 +405,9 @@ hr {
     .up-arrows {
         margin-right: 0;
         margin-left: 24%;
-        margin-top: -12%;
+        margin-top: -14%;
         position: absolute;
-        width: 12%;
+        width: 15%;
     }
 
     .div-profile {
@@ -415,8 +415,8 @@ hr {
     }
 
     .div-about-me {
-        margin-bottom: 25%;
-        margin-top: 10%;
+        margin-bottom: 28%;
+        margin-top: 5%;
     }
 
     .projects-contact {
