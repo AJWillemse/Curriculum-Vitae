@@ -387,7 +387,7 @@ hr {
         height: 65%;
         left: 0;
         margin-left: 0;
-        margin-top: 55%;
+        margin-top: 50%;
         overflow-x: hidden;
         overflow-y: scroll;
         position: fixed;
@@ -405,7 +405,7 @@ hr {
     .up-arrows {
         margin-right: 0;
         margin-left: 24%;
-        margin-top: -14%;
+        margin-top: -12%;
         position: absolute;
         width: 15%;
     }
@@ -415,7 +415,7 @@ hr {
     }
 
     .div-about-me {
-        margin-bottom: 28%;
+        margin-bottom: 30%;
         margin-top: 0;
     }
 
@@ -433,7 +433,7 @@ hr {
     }
 
     .container-footer {
-        margin-top: 179%;
+        margin-top: 178%;
     }
 
     h1 {
