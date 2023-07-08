@@ -43,22 +43,23 @@ body {
 }
   
 .main-header {
+    background-size: cover;
+    left: 0;
+    pointer-events: none;
     position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
-    background-size: cover;
-    pointer-events: none;
     z-index: -1;
 }
 
 .mobile-background-image {
+    background-size: cover;
+    height: 100vh;
+    left: 0;
+    pointer-events: none;
     position: fixed;
     top: 0;
-    left: 0;
-    width: 100%;
-    background-size: cover;
-    pointer-events: none;
+    width: 100vw;
     z-index: -1; 
 }
 
@@ -66,14 +67,15 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     background-size: cover;
     pointer-events: none;
     z-index: -1; 
 }
 
 .background-image {
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
 }
 
 .profile-picture {
@@ -412,7 +414,6 @@ hr {
     .up-arrows {
         margin-right: 0;
         margin-left: 24%;
-        margin-top: -8%;
         position: absolute;
         width: 15%;
     }
@@ -521,18 +522,18 @@ hr {
     
     ul {
         font-size: 2rem;
-        margin-left: 10%;
+        margin-left: 13%;
         text-shadow: 0px 0px 0px black;
     }
     
     .h2-skills {
-        margin-left: 8%;
+        margin-left: 10%;
         text-shadow: 0px 0px 0px black;
     }
     
     .h2-languages {
-        margin-left: 8%;
-        margin-top: 25%;
+        margin-left: 10%;
+        margin-top: 20%;
         text-shadow: 0px 0px 0px black;
     }
 
