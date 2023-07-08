@@ -394,7 +394,7 @@ hr {
         height: 65%;
         left: 0;
         margin-left: 0;
-        margin-top: 55%;
+        margin-top: 45%;
         overflow-x: hidden;
         overflow-y: scroll;
         position: fixed;
@@ -422,7 +422,7 @@ hr {
     }
 
     .div-about-me {
-        margin-bottom: 40%;
+        margin-bottom: 60%;
         margin-top: 0;
     }
 
