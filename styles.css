@@ -22,17 +22,6 @@ body {
     transition: opacity 5s ease-in-out;
 }
 
-#upArrows {
-    animation: fadeEffect 3s infinite;
-    opacity: 0;
-  }
-
-@keyframes fadeEffect {
-    0% { opacity: 0; }
-    50% { opacity: 1; }
-    100% { opacity: 0; }
-  }
-
 .fade-in {
     opacity: 0;
     transition: opacity 3s ease-in-out;
@@ -97,12 +86,6 @@ body {
 
 @media (min-width: 1081px) {
     .mobile-background-image {
-    display: none;
-    }
-}
-
-@media (min-width: 1081px) {
-    .up-arrows {
     display: none;
     }
 }
@@ -408,13 +391,6 @@ hr {
     .content::-webkit-scrollbar {
         width: 6px;
         background-color: transparent;
-    }
-
-    .up-arrows {
-        margin-right: 0;
-        margin-left: 65%;
-        margin-top: -10%;
-        width: 15%;
     }
 
     .div-profile {

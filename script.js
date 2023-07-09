@@ -28,14 +28,6 @@ $(window).on('load', function() {
 
 
 
-$(document).ready(function() {
-  $('#upArrows').css('opacity', 1);
-});
-
-
-
-
-
 
 
 $(window).on('load', function() {
