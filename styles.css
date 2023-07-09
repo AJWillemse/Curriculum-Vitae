@@ -171,8 +171,8 @@ body {
 }
 
 .container-footer {
-    margin-left: 46%;
-    position: absolute;
+    margin: auto;
+    position: relative;
     text-align: center;
 }
 
@@ -410,14 +410,10 @@ hr {
         background-color: transparent;
     }
 
-    .container-footer {
-        margin-left: 30%;
-    }
-
     .up-arrows {
         margin-right: 0;
         margin-left: 25%;
-        margin-top: -8;
+        margin-top: -10;
         position: absolute;
         width: 15%;
     }
