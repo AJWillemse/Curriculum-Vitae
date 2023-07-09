@@ -171,9 +171,8 @@ body {
 }
 
 .container-footer {
-    bottom: 100%;
-    margin: auto;
-    margin-bottom: 1%;
+    margin-left: 46%;
+    position: absolute;
     text-align: center;
 }
 
