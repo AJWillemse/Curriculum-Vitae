@@ -360,7 +360,7 @@ hr {
 
 
 
-@media (max-width: 1080px) {
+@media only screen and (max-device-width: 1080px) {
 
     body {
         color: black;
