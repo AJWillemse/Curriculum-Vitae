@@ -410,6 +410,10 @@ hr {
         background-color: transparent;
     }
 
+    .container-footer {
+        margin-left: 35%;
+    }
+
     .up-arrows {
         margin-right: 0;
         margin-left: 25%;
