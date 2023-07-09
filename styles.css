@@ -417,6 +417,7 @@ hr {
     .up-arrows {
         margin-right: 0;
         margin-left: 25%;
+        margin-top: -8;
         position: absolute;
         width: 15%;
     }
