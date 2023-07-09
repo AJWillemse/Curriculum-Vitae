@@ -413,9 +413,9 @@ hr {
 
     .up-arrows {
         margin-right: 0;
-        margin-left: 24%;
+        margin-left: 25%;
         position: absolute;
-        width: 15%;
+        width: 10%;
     }
 
     .div-profile {
@@ -466,7 +466,7 @@ hr {
     }
     
     .h2-projects {
-        font-size: 2rem;
+        font-size: 2.5rem;
         text-shadow: 0px 0px 0px black;
     }
     
@@ -506,7 +506,7 @@ hr {
         font-size: 1.5rem;
         margin-bottom: 5%;
         text-shadow: 0px 0px 0px black;
-        width: 40%;
+        width: 45%;
     }
 
     .copyright-text {
@@ -523,7 +523,7 @@ hr {
     
     ul {
         font-size: 1rem;
-        margin-left: 13%;
+        margin-left: 10%;
         text-shadow: 0px 0px 0px black;
     }
     
