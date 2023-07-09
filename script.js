@@ -7,10 +7,17 @@ $(window).on('load', function() {
 
 
 
+$(window).on('load', function() {
+  var image = $('#profile');
+  image.css('opacity', 1);
+});
+
+
+
 
 
 $(window).on('load', function() {
-  var image = $('#profile');
+  var image = $('#resumeEmoji');
   image.css('opacity', 1);
 });
 
@@ -28,14 +35,10 @@ $(window).on('load', function() {
 
 
 
-
-
 $(window).on('load', function() {
   var image = $('#mobileCoverPicture');
   image.css('opacity', 1);
 });
-
-
 
 
 
