@@ -446,42 +446,42 @@ hr {
 
     h1 {
         color: black;
-        font-size: 5rem;
+        font-size: 3rem;
         text-shadow: 0px 0px 0px black;
     }
     
     h2 {
-        font-size: 3.7rem;
+        font-size: 1.7rem;
         text-shadow: 0px 0px 0px black;
     }
 
     .h2-about-me {
-        font-size: 4.2rem;
+        font-size: 1.2rem;
         text-shadow: 0px 0px 0px black;
     }
     
     .h2-company {
-        font-size: 3.7rem;
+        font-size: 1.7rem;
         text-shadow: 0px 0px 0px black;
     }
     
     .h2-projects {
-        font-size: 5rem;
+        font-size: 3rem;
         text-shadow: 0px 0px 0px black;
     }
     
     h3 {
-        font-size: 3rem;
+        font-size: 1rem;
         text-shadow: 0px 0px 0px black;
     }
     
     h5 {
-        font-size: 3.5rem;
+        font-size: 1.5rem;
         text-shadow: 0px 0px 0px black;
     }
     
     p {
-        font-size: 3rem;
+        font-size: 1rem;
         line-height: 1.5;
         margin-bottom: 10%;
         text-shadow: 0px 0px 0px black;
@@ -497,13 +497,13 @@ hr {
     
     .link-project {
         color: #2155CD;
-        font-size: 3.5rem;
+        font-size: 1.5rem;
         text-shadow: 0px 0px 0px black;
     }
     
     .btn {
         box-shadow: 0px 0px 12px red;
-        font-size: 3rem;
+        font-size: 1rem;
         margin-bottom: 5%;
         text-shadow: 0px 0px 0px black;
         width: 35%;
@@ -511,18 +511,18 @@ hr {
 
     .copyright-text {
         color: #2155CD;
-        font-size: 1.5rem;
+        font-size: 1rem;
         text-shadow: 0px 0px 0px black;
     }
     
     .link-footer {
         color: #2155CD;
-        font-size: 2rem;
+        font-size: 1rem;
         text-shadow: 0px 0px 0px black;
     }
     
     ul {
-        font-size: 2rem;
+        font-size: 1rem;
         margin-left: 13%;
         text-shadow: 0px 0px 0px black;
     }
