@@ -1,0 +1,532 @@
+body {
+    color: white;
+}
+
+#cover {
+    opacity: 0;
+    transition: opacity 5s ease-in-out;
+}
+
+#profilePicture {
+    opacity: 0;
+    transition: opacity 4s ease-in-out;
+}
+
+#mobileCoverPicture {
+    opacity: 0;
+    transition: opacity 4s ease-in-out;
+}
+
+#profile {
+    opacity: 0;
+    transition: opacity 5s ease-in-out;
+}
+
+#resumeEmoji {
+    opacity: 0;
+    transition: opacity 5s ease-in-out;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 3s ease-in-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+}
+  
+.main-header {
+    background-size: cover;
+    left: 0;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.mobile-background-image {
+    background-size: cover;
+    height: 100vh;
+    left: 0;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: -1; 
+}
+
+.mobile-cover-picture {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-size: cover;
+    pointer-events: none;
+    z-index: -1; 
+}
+
+.background-image {
+    height: 100vh;
+    width: 100vw;
+}
+
+.profile-picture {
+    box-shadow: 0px 0px 40px black;
+    margin-left: 5%;
+    margin-top: 5%;
+    position: absolute;
+    opacity: 0.9;
+    width: 30%;
+}
+
+/*////////////////////////////////////////////////////////*/
+
+@media (min-width: 1081px) {
+    .mobile-cover-picture {
+      display: none;
+    }  
+}
+
+@media (min-width: 1081px) {
+    .mobile-background-image {
+    display: none;
+    }
+}
+
+@media (min-width: 1081px) {
+    .resume-emoji {
+    display: none;
+    }
+}
+
+.content {
+    background-color: rgba(100, 100, 100, 0.1);
+    backdrop-filter: blur(2px);
+    box-shadow: 0px 0px 40px black;
+    margin-bottom: 8%;
+    margin-left: 41.5%;
+    margin-top: 5%;
+    padding: 2% 2%;
+    text-align: center;
+    width: 40%;
+}
+
+.div-profile {
+    margin-bottom: 30%;
+}
+
+.div-about-me {
+    margin-bottom: 25%;
+}
+
+.div-experience {
+    margin-bottom: 15%;
+}
+
+.div-references {
+    margin-bottom: 15%;
+}
+
+.div-education {
+    margin-bottom: 15%;
+}
+
+.skills-hobbies {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15%;
+    width: 100%;
+}
+
+.skills {
+    text-align: left;
+    width: 50%;
+}
+
+.hobbies {
+    text-align: left;
+    width: 50%;
+}
+
+.projects-contact {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.projects {
+    width: 50%;
+}
+
+.contact {
+    width: 50%;
+}
+
+.container-footer {
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+
+/*////////////////////////////////////////////////////////*/
+
+h1 {
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 5%;
+    text-shadow: 0px 0px 6px white;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-shadow: 0px 0px 4px white;
+}
+
+.h2-company {
+    font-style: italic;
+    font-weight: lighter;
+    text-shadow: 0px 0px 4px white;
+}
+
+.h2-projects {
+    font-size: 2.5rem;
+    text-shadow: 0px 0px 4px white;
+}
+
+h3 {
+    text-shadow: 0px 0px 4px white;
+}
+
+h5 {
+    margin-top: 4%;
+    text-shadow: 0px 0px 4px white;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 2;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    text-shadow: 0px 0px 4px white;
+}
+
+.link-project {
+    color: red;
+    font-size: 1.3rem;
+    text-shadow: 0px 0px 2px white;
+}
+
+.link-project:hover {
+    font-weight: bold;
+  }
+
+.btn {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 5%;
+    text-shadow: 0px 0px 2px white;
+}
+
+.copyright-text {
+    margin: 0;
+    text-shadow: 0px 0px 4px white;
+}
+
+.link-footer {
+    color: white;
+    font-size: 1.2rem;
+    text-shadow: 0px 0px 4px white;
+}
+
+.link-footer:hover {
+    font-weight: bold;
+  }
+
+ul {
+    font-size: 1.2rem;
+    margin-left: 23%;
+    text-shadow: 0px 0px 4px white;
+}
+
+.h2-skills {
+    margin-bottom: 5%;
+    margin-left: 20%;
+}
+
+.h2-languages {
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-top: 14.5%;
+}
+
+hr {
+    border: 3px solid;
+    border-color: white;
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    box-shadow: 0px 0px 8px white;
+    width: 70%;
+}
+
+.hr-profile {
+    border: 3px solid;
+    border-color: white;
+    margin: auto;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    box-shadow: 0px 0px 8px white;
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 1081px) and (max-width: 1440px) {
+
+    .content {
+        margin-bottom: 14%;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    ul {
+        margin-left: 15%;
+    }
+    
+    .h2-skills {
+        margin-left: 12%;
+    }
+    
+    .h2-languages {
+        margin-left: 12%;
+        margin-top: 25.5%;
+    }
+
+    .projects {
+        margin-bottom: 15%;
+        width: 100%;
+    }
+    
+    .contact {
+        width: 100%;
+    }
+
+    .h2-projects {
+        font-size: 3rem;
+    }
+
+    .link-project {
+        color: red;
+        font-size: 1.5rem;
+        text-shadow: 0px 0px 2px white;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-device-width: 1080px) {
+
+    body {
+        color: black;
+    }
+
+    .main-header {
+        display: none;
+    }
+
+    .header {
+        left: 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+    }
+      
+    .mobile-cover-picture {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        left: 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 3;
+    }
+
+    .content {
+        background-color: rgba(50, 50, 50, 0);
+        backdrop-filter: blur(0px);
+        box-shadow: 0px 0px 0px black;
+        height: 65%;
+        left: 0;
+        margin-left: 0;
+        margin-top: 45%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        position: fixed;
+        scrollbar-width: none;
+        top: 0;
+        width: 100%;
+        -ms-overflow-style: none;
+    }
+
+    .content::-webkit-scrollbar {
+        width: 6px;
+        background-color: transparent;
+    }
+
+    .div-profile {
+        display: none;
+    }
+
+    .div-about-me {
+        margin-bottom: 0%;
+        margin-top: 0%;
+    }
+
+    .resume-emoji {
+        margin-bottom: 15%;
+        width: 50%;
+    }
+
+    .projects-contact {
+        margin-bottom: 2%;
+    }
+
+    .projects {
+        width: 100%;
+        margin-bottom: 15%;
+    }
+    
+    .contact {
+        width: 100%;
+    }
+
+    .container-footer {
+        margin-top: 178%;
+    }
+
+    h1 {
+        color: black;
+        font-size: 2.5rem;
+        text-shadow: 0px 0px 0px black;
+    }
+    
+    h2 {
+        font-size: 1.7rem;
+        text-shadow: 0px 0px 0px black;
+    }
+
+    .h2-about-me {
+        font-size: 1.7rem;
+        text-shadow: 0px 0px 0px black;
+    }
+    
+    .h2-company {
+        font-size: 1.5rem;
+        text-shadow: 0px 0px 0px black;
+    }
+    
+    .h2-projects {
+        font-size: 2.5rem;
+        text-shadow: 0px 0px 0px black;
+    }
+    
+    h3 {
+        font-size: 1.2rem;
+        text-shadow: 0px 0px 0px black;
+    }
+    
+    h5 {
+        font-size: 1.5rem;
+        text-shadow: 0px 0px 0px black;
+    }
+    
+    p {
+        font-size: 1.2rem;
+        line-height: 1.5;
+        margin-bottom: 10%;
+        text-shadow: 0px 0px 0px black;
+    }
+
+    hr {
+        box-shadow: 0px 0px 12px black;
+        border: 3px solid;
+        margin-bottom: 3%;
+        margin-top: 3%;
+        width: 70%;
+    }
+    
+    .link-project {
+        color: #2155CD;
+        font-size: 1.5rem;
+        text-shadow: 0px 0px 0px black;
+    }
+    
+    .btn {
+        box-shadow: 0px 0px 12px red;
+        font-size: 1.5rem;
+        margin-bottom: 5%;
+        text-shadow: 0px 0px 0px black;
+        width: 45%;
+    }
+
+    .copyright-text {
+        color: #2155CD;
+        font-size: 1rem;
+        text-shadow: 0px 0px 0px black;
+    }
+    
+    .link-footer {
+        color: #2155CD;
+        font-size: 1.2rem;
+        text-shadow: 0px 0px 0px black;
+    }
+    
+    ul {
+        font-size: 1rem;
+        margin-left: 10%;
+        text-shadow: 0px 0px 0px black;
+    }
+    
+    .h2-skills {
+        margin-left: 10%;
+        text-shadow: 0px 0px 0px black;
+    }
+    
+    .h2-languages {
+        margin-left: 10%;
+        margin-top: 27.5%;
+        text-shadow: 0px 0px 0px black;
+    }
+
+}
